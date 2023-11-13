@@ -7,9 +7,8 @@
 .Text-Menu.MuiListItemText-root {
     margin: 0 20px 0 20px;
 }
-.MuiDivider-root {
-    margin-left: 20px;
-    margin-right: 20px;
+hr.MuiDivider-root {
+    margin: 0px 20px 0px 20px;
 }
 .Button-Menu.MuiButtonBase-root {
     color: #fff!important;
@@ -28,5 +27,38 @@
 }
 .List-Menu.MuiPopover-root {
     margin-top: 10px;
+}
+svg.SubHeader-Icon {
+    font-family: 'themify';
+    font-style: normal;
+    font-weight: 400;
+    font-variant: normal;
+    line-height: 1;
+    font-size: 17px;
+}
+svg.Shopping-Icon {
+    font-family: 'themify';
+    font-style: normal;
+    font-weight: 400;
+    font-variant: normal;
+    line-height: 1;
+    font-size: 17px;
+}
+button.MuiButtonBase-root:hover {
+    background: rgba(0, 0, 0, 0);
+}
+span.MuiBadge-badge {
+    font-size: 10px;
+    font-weight: 600;
+    line-height: 18px;
+    height: 18px;
+    border-radius: 50px;
+    top: -4px;
+    right: -4px;
+    width: 16px;
+    text-align: center;
+}
+span.MuiBadge-root {
+    margin-left: 8px;
 }
 /* CSS phần Header của trang Home */
