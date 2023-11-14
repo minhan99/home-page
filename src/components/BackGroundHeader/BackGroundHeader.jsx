@@ -2,8 +2,17 @@ import Box from '@mui/material/Box'
 import React from 'react'
 import Header from '../Header/Header'
 import CardMedia from '@mui/material/CardMedia'
+import YouTube from 'react-youtube'
 
 function BackGroundHeader() {
+  const options = {
+    height: '390',
+    width: '640',
+    playerVars: {
+      autoplay: 1,
+      controls: 1,
+    },
+  };
   return (
     <Box>
       {/* Thanh menu header */}
@@ -12,13 +21,16 @@ function BackGroundHeader() {
       </Box>
       {/* Khung search tìm kiếm trên header */}
       <Box></Box>
-      <CardMedia
+      {/* <CardMedia
         component='iframe'
-        image='https://www.youtube.com/watch?v=JPe2mwq96cw' 
+        allowFullScreen= '1'
+        allow='autoplay; encrypted-media'
+        title='video'
       >
 
-      </CardMedia>
-    </Box>
+      </CardMedia> */}
+      {/* <YouTube videoId='JPe2mwq96cw' options={options}></YouTube> */}
+      </Box>
   )
 }
 
