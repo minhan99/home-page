@@ -12,12 +12,12 @@ import PageMenu from './Menus/PageMenu'
 import BlogMenu from './Menus/BlogMenu'
 import ShortCodeMenu from './Menus/ShortCodeMenu'
 import ShopMenu from './Menus/ShopMenu'
-import MenuIcon from '@mui/icons-material/Menu'
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart'
+import DrawerSubMenu from './Menus/DrawerSubMenu'
 
 function Header() {
   return (
-    <Box sx={{ flexGrow: 1, marginLeft: 15, marginRight: 15 }}>
+    <Box sx={{ flexGrow: 1, marginLeft: 15, marginRight: 15 }} >
       <AppBar position="static">
         <Toolbar sx={{ '&.MuiToolbar-root':{ paddingLeft: 0, paddingRight: 0 } }}>
           <Box
@@ -41,12 +41,13 @@ function Header() {
             <HomeMenu></HomeMenu>
           </Box>
           <Box sx={{ display: { xs: 'none', md: 'flex' } }}>
-            <IconButton color="inherit">
-              <MenuIcon className='SubHeader-Icon'></MenuIcon>
+            {/* DrawerSubMenu show in here */}
+            <DrawerSubMenu></DrawerSubMenu>
+            <IconButton color='inherit'>
               <Badge badgeContent={1} color="error">
                 <ShoppingCartIcon className='Shopping-Icon'></ShoppingCartIcon>
               </Badge>
-            </IconButton>
+            </IconButton>            
           </Box>
         </Toolbar>
       </AppBar>

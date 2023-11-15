@@ -58,7 +58,7 @@ span.MuiBadge-badge {
     width: 16px;
     text-align: center;
 }
-span.MuiBadge-root {
-    margin-left: 8px;
+button.MuiButtonBase-root {
+    padding: 4px;
 }
 /* CSS phần Header của trang Home */
