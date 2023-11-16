@@ -47,6 +47,9 @@ svg.Shopping-Icon {
 button.MuiButtonBase-root:hover {
     background: rgba(0, 0, 0, 0);
 }
+div.MuiButtonBase-root:hover {
+    background: rgba(0, 0, 0, 0);
+}
 span.MuiBadge-badge {
     font-size: 10px;
     font-weight: 600;
@@ -60,5 +63,31 @@ span.MuiBadge-badge {
 }
 button.MuiButtonBase-root {
     padding: 4px;
+}
+ul.Sub-Menu-Body {
+    width: 360px;
+    height: 100%;
+    font-style: inherit;
+    font-weight: inherit;
+    font-size: 100%;
+    font-family: inherit;
+    background: rgba(255,255,255,.85);
+}
+div.Text-Sub-Menu > span {
+    font-family: 'Poppins', Helvetica, Arial, sans-serif;
+    font-size: 24px;
+    line-height: 2em;
+    font-weight: 800;
+    text-transform: none;
+    letter-spacing: 0px;
+    color: #000000;
+}
+div.Text-Sub-Menu > span:hover {
+    color: #FF4A52;
+}
+li.Item-Sub-Menu {
+    height: 50px;
+    padding-top: 0px;
+    padding-bottom: 0px;
 }
 /* CSS phần Header của trang Home */

@@ -6,6 +6,8 @@ import Drawer from '@mui/material/Drawer'
 import List from '@mui/material/List'
 import MenuIcon from '@mui/icons-material/Menu'
 import IconButton from '@mui/material/IconButton'
+import ListItemIcon from '@mui/material/ListItemIcon'
+import CancelIcon from '@mui/icons-material/Cancel'
 
 function DrawerSubMenu() {
   const [isOpenSubMenu, setIsOpenSubMenu] = React.useState(false)
@@ -24,46 +26,47 @@ function DrawerSubMenu() {
       anchor= 'right'
       open={isOpenSubMenu}
       onClose={closeDrawerSubMenu}
+      className='Sub-Menu-Modal'
     >
-      <List>
-        <ListItem>
+      <List className='Sub-Menu-Body'>
+      <ListItem>
             <ListItemButton>
-                <ListItemText>Home</ListItemText>
+                <ListItemIcon sx={{ marginLeft: '255px' }} className='Icon-Close-SubMenu'><CancelIcon sx={{ color: '#FF4A52' }} fontSize='large'></CancelIcon></ListItemIcon>
             </ListItemButton>
         </ListItem>
-        <ListItem>
+        <ListItem className='Item-Sub-Menu'>
             <ListItemButton>
-                <ListItemText>Tours</ListItemText>
+                <ListItemText className='Text-Sub-Menu'>Home</ListItemText>
             </ListItemButton>
         </ListItem>
-        <ListItem>
+        <ListItem className='Item-Sub-Menu'>
             <ListItemButton>
-                <ListItemText>Destinations</ListItemText>
+                <ListItemText className='Text-Sub-Menu'>Tours</ListItemText>
             </ListItemButton>
         </ListItem>
-        <ListItem>
+        <ListItem className='Item-Sub-Menu'>
             <ListItemButton>
-                <ListItemText>Pages</ListItemText>
+                <ListItemText className='Text-Sub-Menu'>Destinations</ListItemText>
             </ListItemButton>
         </ListItem>
-        <ListItem>
+        <ListItem className='Item-Sub-Menu'>
             <ListItemButton>
-                <ListItemText>Blog</ListItemText>
+                <ListItemText className='Text-Sub-Menu'>Pages</ListItemText>
             </ListItemButton>
         </ListItem>
-        <ListItem>
+        <ListItem className='Item-Sub-Menu'>
             <ListItemButton>
-                <ListItemText>Home</ListItemText>
+                <ListItemText className='Text-Sub-Menu'>Blog</ListItemText>
             </ListItemButton>
         </ListItem>
-        <ListItem>
+        <ListItem className='Item-Sub-Menu'>
             <ListItemButton>
-                <ListItemText>Shortcodes</ListItemText>
+                <ListItemText className='Text-Sub-Menu'>Shortcodes</ListItemText>
             </ListItemButton>
         </ListItem>
-        <ListItem>
+        <ListItem className='Item-Sub-Menu'>
             <ListItemButton>
-                <ListItemText>Shop</ListItemText>
+                <ListItemText className='Text-Sub-Menu'>Shop</ListItemText>
             </ListItemButton>
         </ListItem>
       </List>
