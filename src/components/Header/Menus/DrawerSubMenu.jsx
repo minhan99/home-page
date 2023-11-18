@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/alt-text */
 import React from 'react'
 import ListItem from '@mui/material/ListItem'
 import ListItemButton from '@mui/material/ListItemButton'
@@ -8,8 +9,17 @@ import MenuIcon from '@mui/icons-material/Menu'
 import IconButton from '@mui/material/IconButton'
 import ListItemIcon from '@mui/material/ListItemIcon'
 import CancelIcon from '@mui/icons-material/Cancel'
+import Box from '@mui/material/Box'
+import InstagramIcon from '@mui/icons-material/Instagram'
+import PinterestIcon from '@mui/icons-material/Pinterest'
+import YouTubeIcon from '@mui/icons-material/YouTube'
+import TwitterIcon from '@mui/icons-material/Twitter'
+import FacebookIcon from '@mui/icons-material/Facebook'
+import Typography from '@mui/material/Typography'
 
 function DrawerSubMenu() {
+  const imageURL1 = 'https://themes-themegoods.b-cdn.net/grandtour/demo/wp-content/uploads/2016/12/pexels-photo-131729-700x466.jpeg'
+  const imageURL2 = 'https://themes-themegoods.b-cdn.net/grandtour/demo/wp-content/uploads/2016/12/pexels-photo-225630-700x466.jpeg'
   const [isOpenSubMenu, setIsOpenSubMenu] = React.useState(false)
   const openDrawerSubMenu = () => {
     setIsOpenSubMenu(true)
@@ -31,7 +41,7 @@ function DrawerSubMenu() {
       <List className='Sub-Menu-Body'>
       <ListItem>
             <ListItemButton>
-                <ListItemIcon sx={{ marginLeft: '255px' }} className='Icon-Close-SubMenu'><CancelIcon sx={{ color: '#FF4A52' }} fontSize='large'></CancelIcon></ListItemIcon>
+                <ListItemIcon sx={{ marginLeft: '255px' }} className='Icon-Close-SubMenu'><CancelIcon onClick={closeDrawerSubMenu} sx={{ color: '#FF4A52' }} fontSize='large'></CancelIcon></ListItemIcon>
             </ListItemButton>
         </ListItem>
         <ListItem className='Item-Sub-Menu'>
@@ -69,6 +79,34 @@ function DrawerSubMenu() {
                 <ListItemText className='Text-Sub-Menu'>Shop</ListItemText>
             </ListItemButton>
         </ListItem>
+        <Box sx={{ marginTop: '75px', bgcolor: 'rgba(255,255,255,.85)' }}>
+            <Box className='Img-Sub-Menu' style={{ backgroundImage: `url(${imageURL1})` }}>
+                <Box className='Img-Sub-Menu-Price'>
+                    <Box sx={{ padding: '0 10px 0 10px' }}>
+                        <Box component="span">
+                        </Box>$3,900
+                    </Box>
+                </Box>
+                <Typography variant='h5' className='Img-Sub-Menu-Name'>Swiss Alps Trip</Typography>
+            </Box>
+            <Box className='Img-Sub-Menu' style={{ backgroundImage: `url(${imageURL2})` }}>
+            <Box className='Img-Sub-Menu-Price'>
+                    <Box sx={{ padding: '0 10px 0 10px' }}>
+                        <Box component="span">
+                            $4,900
+                        </Box>$4,200
+                    </Box>
+                </Box>
+                <Typography className='Img-Sub-Menu-Name' variant='h5'>5 Lake of Fuji San</Typography>
+            </Box>
+        </Box>
+        <Box className='Icon-Sub-Menu'>
+            <FacebookIcon></FacebookIcon>
+            <TwitterIcon sx={{ marginLeft: '15px' }}></TwitterIcon>
+            <YouTubeIcon sx={{ marginLeft: '15px' }}></YouTubeIcon>
+            <PinterestIcon sx={{ marginLeft: '15px' }}></PinterestIcon>
+            <InstagramIcon sx={{ marginLeft: '15px' }}></InstagramIcon>
+        </Box>
       </List>
     </Drawer>
     </>
