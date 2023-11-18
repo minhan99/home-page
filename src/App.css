@@ -64,7 +64,7 @@ span.MuiBadge-badge {
 button.MuiButtonBase-root {
     padding: 4px;
 }
-ul.Sub-Menu-Body {
+.Sub-Menu-Body {
     width: 360px;
     height: 100%;
     font-style: inherit;
@@ -89,5 +89,63 @@ li.Item-Sub-Menu {
     height: 50px;
     padding-top: 0px;
     padding-bottom: 0px;
+}
+div.Img-Sub-Menu {
+    background-size: cover;
+    background-position: center center;
+    height: 25vh;
+    width: 40vh;
+    border-radius: 2%;
+    margin-bottom: 4%;
+    margin-left: 11%;
+}
+div.Img-Sub-Menu-Price {
+    color: white;
+    background-color: #FF4A52;
+    width: fit-content;
+    height: 15%;
+    align-items: center;
+    display: flex;
+    font-size: 15px;
+    font-weight: 700;
+    justify-content: center;
+    position: relative;
+    top: 40%;
+}
+h5.Img-Sub-Menu-Name {
+    color: white;
+    align-items: center;
+    display: flex;
+    font-size: 18px;
+    font-weight: 700;
+    justify-content: left;
+    position: relative;
+    top: 50%;
+    left: 5%;
+}
+div.Img-Sub-Menu-Price > div > span {
+    font-size: 13px;
+    font-weight: 400;
+    opacity: .6;
+    text-decoration: line-through;
+    margin-right: 5px;
+}
+div.Icon-Sub-Menu {
+    margin-top: 45px;
+    margin-left: 11%;
+    padding-bottom: 50px;
+    font-size: 100%;
+    font-weight: inherit;
+    font-style: inherit;
+    font-family: inherit;
+    vertical-align: baseline;
+    background: rgba(255,255,255,.85);
+}
+div.Icon-Sub-Menu > svg {
+    font-size: 26px;
+    line-height: 24px;
+}
+div.Icon-Sub-Menu > svg:hover {
+    color: #FF4A52;
 }
 /* CSS phần Header của trang Home */

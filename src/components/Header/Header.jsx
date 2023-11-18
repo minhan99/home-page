@@ -44,7 +44,7 @@ function Header() {
             {/* DrawerSubMenu show in here */}
             <DrawerSubMenu></DrawerSubMenu>
             <IconButton color='inherit'>
-              <Badge badgeContent={1} color="error">
+              <Badge badgeContent={0} color="error" showZero>
                 <ShoppingCartIcon className='Shopping-Icon'></ShoppingCartIcon>
               </Badge>
             </IconButton>            
