@@ -1,3 +1,4 @@
+/* CSS phần Header của trang Home */
 .Text-Menu.MuiListItemText-root > span {
     font-size: 13px;
     font-family: 'Poppins', Helvetica, Arial, sans-serif;
@@ -130,6 +131,16 @@ div.Img-Sub-Menu-Price > div > span {
     text-decoration: line-through;
     margin-right: 5px;
 }
+div.Img-Sub-Menu-Rate {
+    display: flex;
+    position: relative;
+    left: 5%;
+    top: 50%;
+}
+div.Img-Sub-Menu-Rate > svg {
+    color: #1EC6B6;
+    font-size: 16px;
+}
 div.Icon-Sub-Menu {
     margin-top: 45px;
     margin-left: 11%;
@@ -148,4 +159,63 @@ div.Icon-Sub-Menu > svg {
 div.Icon-Sub-Menu > svg:hover {
     color: #FF4A52;
 }
-/* CSS phần Header của trang Home */
+/* -------------------------------------------- */
+/* CSS phần Popular Destinations trong Body */
+div.PopularDes-Container {
+    padding-top: 5%;
+}
+div.PopularDes-Contain-Title {
+    display: flex;
+    justify-content: center;
+}
+div.PopularDes-Contain-Title > h2 {
+    font-family: 'Poppins', Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    color: #000000;
+    font-size: 36px;
+    font-style: inherit;
+}
+div.PopularDes-Contain-SubTitle > h5 {
+    font-family: 'Poppins', Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    color: #8D9199;
+    font-size: 15px;
+    font-style: inherit;
+}
+div.PopularDes-Contain-SubTitle {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 3%;
+}
+div.PopularDes-ListImage {
+    width: 82%;
+    margin-left: 10%;
+}
+div.PopularDes-ListImage-Item {
+    padding: 0px 10px 0px 10px;
+    transition-duration: 0.2s;
+}
+div.PopularDes-ListImage-Item > div {
+    border-radius: 5px;
+    height: 65vh;
+    width: 60vh;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    background-color: #f9f9f9;
+}
+h3.PopularDes-ListImage-Title {
+    font-size: 24px;
+    font-weight: 700;
+    color: #fff;
+    font-family: 'Poppins', Helvetica, Arial, sans-serif;
+    font-style: inherit;
+    position: relative;
+    top: 85%;
+    padding-left: 5%;
+}
+div.PopularDes-ListImage-Image:hover {
+    box-shadow: 0 22px 40px rgba(0,0,0,.15);
+    transition-duration: 0.2s;
+    transform: translateY(-4px);
+}

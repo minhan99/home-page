@@ -16,6 +16,8 @@ import YouTubeIcon from '@mui/icons-material/YouTube'
 import TwitterIcon from '@mui/icons-material/Twitter'
 import FacebookIcon from '@mui/icons-material/Facebook'
 import Typography from '@mui/material/Typography'
+import StarRateIcon from '@mui/icons-material/StarRate'
+import StarOutlineIcon from '@mui/icons-material/StarOutline'
 
 function DrawerSubMenu() {
   const imageURL1 = 'https://themes-themegoods.b-cdn.net/grandtour/demo/wp-content/uploads/2016/12/pexels-photo-131729-700x466.jpeg'
@@ -88,6 +90,13 @@ function DrawerSubMenu() {
                     </Box>
                 </Box>
                 <Typography variant='h5' className='Img-Sub-Menu-Name'>Swiss Alps Trip</Typography>
+                <Box className='Img-Sub-Menu-Rate'>
+                    <StarRateIcon></StarRateIcon>
+                    <StarRateIcon></StarRateIcon>
+                    <StarRateIcon></StarRateIcon>
+                    <StarRateIcon></StarRateIcon>
+                    <StarOutlineIcon></StarOutlineIcon>
+                </Box>
             </Box>
             <Box className='Img-Sub-Menu' style={{ backgroundImage: `url(${imageURL2})` }}>
             <Box className='Img-Sub-Menu-Price'>
@@ -98,6 +107,13 @@ function DrawerSubMenu() {
                     </Box>
                 </Box>
                 <Typography className='Img-Sub-Menu-Name' variant='h5'>5 Lake of Fuji San</Typography>
+                <Box className='Img-Sub-Menu-Rate'>
+                    <StarRateIcon></StarRateIcon>
+                    <StarRateIcon></StarRateIcon>
+                    <StarRateIcon></StarRateIcon>
+                    <StarRateIcon></StarRateIcon>
+                    <StarOutlineIcon></StarOutlineIcon>
+                </Box>
             </Box>
         </Box>
         <Box className='Icon-Sub-Menu'>
