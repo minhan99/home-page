@@ -197,8 +197,8 @@ div.PopularDes-ListImage-Item {
 }
 div.PopularDes-ListImage-Item > div {
     border-radius: 5px;
-    height: 65vh;
-    width: 60vh;
+    height: 45vh;
+    width: 40vh;
     background-size: cover;
     background-position: center center;
     position: relative;
