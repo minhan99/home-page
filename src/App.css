@@ -1,221 +1,289 @@
 /* CSS phần Header của trang Home */
 .Text-Menu.MuiListItemText-root > span {
-    font-size: 13px;
-    font-family: 'Poppins', Helvetica, Arial, sans-serif;
-    font-weight: 500;
-    letter-spacing: 0px;
+  font-size: 13px;
+  font-family: "Poppins", Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  letter-spacing: 0px;
 }
 .Text-Menu.MuiListItemText-root {
-    margin: 0 20px 0 20px;
+  margin: 0 20px 0 20px;
 }
 hr.MuiDivider-root {
-    margin: 0px 20px 0px 20px;
+  margin: 0px 20px 0px 20px;
 }
 .Button-Menu.MuiButtonBase-root {
-    color: #fff!important;
-    font-size: 13px;
-    font-family: 'Poppins', Helvetica, Arial, sans-serif;
-    font-weight: 500;
-    letter-spacing: 0px;
-    text-transform: none;
+  color: #fff !important;
+  font-size: 13px;
+  font-family: "Poppins", Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  letter-spacing: 0px;
+  text-transform: none;
 }
 .Button-Menu > span.MuiButton-endIcon {
-    margin-right: 0px;
-    margin-left: 2px;
+  margin-right: 0px;
+  margin-left: 2px;
 }
 .Button-Menu > span.MuiButton-endIcon > svg.MuiSvgIcon-root {
-    font-size: 13px;
+  font-size: 13px;
 }
 .List-Menu.MuiPopover-root {
-    margin-top: 10px;
+  margin-top: 10px;
 }
 svg.SubHeader-Icon {
-    font-family: 'themify';
-    font-style: normal;
-    font-weight: 400;
-    font-variant: normal;
-    line-height: 1;
-    font-size: 17px;
+  font-family: "themify";
+  font-style: normal;
+  font-weight: 400;
+  font-variant: normal;
+  line-height: 1;
+  font-size: 17px;
 }
 svg.Shopping-Icon {
-    font-family: 'themify';
-    font-style: normal;
-    font-weight: 400;
-    font-variant: normal;
-    line-height: 1;
-    font-size: 17px;
+  font-family: "themify";
+  font-style: normal;
+  font-weight: 400;
+  font-variant: normal;
+  line-height: 1;
+  font-size: 17px;
 }
 button.MuiButtonBase-root:hover {
-    background: rgba(0, 0, 0, 0);
+  background: rgba(0, 0, 0, 0);
 }
 div.MuiButtonBase-root:hover {
-    background: rgba(0, 0, 0, 0);
+  background: rgba(0, 0, 0, 0);
 }
 span.MuiBadge-badge {
-    font-size: 10px;
-    font-weight: 600;
-    line-height: 18px;
-    height: 18px;
-    border-radius: 50px;
-    top: -4px;
-    right: -4px;
-    width: 16px;
-    text-align: center;
+  font-size: 10px;
+  font-weight: 600;
+  line-height: 18px;
+  height: 18px;
+  border-radius: 50px;
+  top: -4px;
+  right: -4px;
+  width: 16px;
+  text-align: center;
 }
 button.MuiButtonBase-root {
-    padding: 4px;
+  padding: 4px;
 }
 .Sub-Menu-Body {
-    width: 360px;
-    height: 100%;
-    font-style: inherit;
-    font-weight: inherit;
-    font-size: 100%;
-    font-family: inherit;
-    background: rgba(255,255,255,.85);
+  width: 360px;
+  height: 100%;
+  font-style: inherit;
+  font-weight: inherit;
+  font-size: 100%;
+  font-family: inherit;
+  background: rgba(255, 255, 255, 0.85);
 }
 div.Text-Sub-Menu > span {
-    font-family: 'Poppins', Helvetica, Arial, sans-serif;
-    font-size: 24px;
-    line-height: 2em;
-    font-weight: 800;
-    text-transform: none;
-    letter-spacing: 0px;
-    color: #000000;
+  font-family: "Poppins", Helvetica, Arial, sans-serif;
+  font-size: 24px;
+  line-height: 2em;
+  font-weight: 800;
+  text-transform: none;
+  letter-spacing: 0px;
+  color: #000000;
 }
 div.Text-Sub-Menu > span:hover {
-    color: #FF4A52;
+  color: #ff4a52;
 }
 li.Item-Sub-Menu {
-    height: 50px;
-    padding-top: 0px;
-    padding-bottom: 0px;
+  height: 50px;
+  padding-top: 0px;
+  padding-bottom: 0px;
 }
 div.Img-Sub-Menu {
-    background-size: cover;
-    background-position: center center;
-    height: 25vh;
-    width: 40vh;
-    border-radius: 2%;
-    margin-bottom: 4%;
-    margin-left: 11%;
+  background-size: cover;
+  background-position: center center;
+  height: 25vh;
+  width: 40vh;
+  border-radius: 2%;
+  margin-bottom: 4%;
+  margin-left: 11%;
 }
 div.Img-Sub-Menu-Price {
-    color: white;
-    background-color: #FF4A52;
-    width: fit-content;
-    height: 15%;
-    align-items: center;
-    display: flex;
-    font-size: 15px;
-    font-weight: 700;
-    justify-content: center;
-    position: relative;
-    top: 40%;
+  color: white;
+  background-color: #ff4a52;
+  width: fit-content;
+  height: 15%;
+  align-items: center;
+  display: flex;
+  font-size: 15px;
+  font-weight: 700;
+  justify-content: center;
+  position: relative;
+  top: 40%;
 }
 h5.Img-Sub-Menu-Name {
-    color: white;
-    align-items: center;
-    display: flex;
-    font-size: 18px;
-    font-weight: 700;
-    justify-content: left;
-    position: relative;
-    top: 50%;
-    left: 5%;
+  color: white;
+  align-items: center;
+  display: flex;
+  font-size: 18px;
+  font-weight: 700;
+  justify-content: left;
+  position: relative;
+  top: 50%;
+  left: 5%;
 }
 div.Img-Sub-Menu-Price > div > span {
-    font-size: 13px;
-    font-weight: 400;
-    opacity: .6;
-    text-decoration: line-through;
-    margin-right: 5px;
+  font-size: 13px;
+  font-weight: 400;
+  opacity: 0.6;
+  text-decoration: line-through;
+  margin-right: 5px;
 }
 div.Img-Sub-Menu-Rate {
-    display: flex;
-    position: relative;
-    left: 5%;
-    top: 50%;
+  display: flex;
+  position: relative;
+  left: 5%;
+  top: 50%;
 }
 div.Img-Sub-Menu-Rate > svg {
-    color: #1EC6B6;
-    font-size: 16px;
+  color: #1ec6b6;
+  font-size: 16px;
 }
 div.Icon-Sub-Menu {
-    margin-top: 45px;
-    margin-left: 11%;
-    padding-bottom: 50px;
-    font-size: 100%;
-    font-weight: inherit;
-    font-style: inherit;
-    font-family: inherit;
-    vertical-align: baseline;
-    background: rgba(255,255,255,.85);
+  margin-top: 45px;
+  margin-left: 11%;
+  padding-bottom: 50px;
+  font-size: 100%;
+  font-weight: inherit;
+  font-style: inherit;
+  font-family: inherit;
+  vertical-align: baseline;
+  background: rgba(255, 255, 255, 0.85);
 }
 div.Icon-Sub-Menu > svg {
-    font-size: 26px;
-    line-height: 24px;
+  font-size: 26px;
+  line-height: 24px;
 }
 div.Icon-Sub-Menu > svg:hover {
-    color: #FF4A52;
+  color: #ff4a52;
 }
 /* -------------------------------------------- */
 /* CSS phần Popular Destinations trong Body */
 div.PopularDes-Container {
-    padding-top: 5%;
+  padding-top: 5%;
 }
 div.PopularDes-Contain-Title {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 div.PopularDes-Contain-Title > h2 {
-    font-family: 'Poppins', Helvetica, Arial, sans-serif;
-    font-weight: 700;
-    color: #000000;
-    font-size: 36px;
-    font-style: inherit;
+  font-family: "Poppins", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  color: #000000;
+  font-size: 36px;
+  font-style: inherit;
 }
 div.PopularDes-Contain-SubTitle > h5 {
-    font-family: 'Poppins', Helvetica, Arial, sans-serif;
-    font-weight: 500;
-    color: #8D9199;
-    font-size: 15px;
-    font-style: inherit;
+  font-family: "Poppins", Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  color: #8d9199;
+  font-size: 15px;
+  font-style: inherit;
 }
 div.PopularDes-Contain-SubTitle {
-    display: flex;
-    justify-content: center;
-    padding-bottom: 3%;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 3%;
 }
 div.PopularDes-ListImage {
-    width: 82%;
-    margin-left: 10%;
+  width: 82%;
+  margin-left: 10%;
 }
 div.PopularDes-ListImage-Item {
-    padding: 0px 10px 0px 10px;
-    transition-duration: 0.2s;
+  padding: 0px 10px 0px 10px;
+  transition-duration: 0.2s;
 }
 div.PopularDes-ListImage-Item > div {
-    border-radius: 5px;
-    height: 45vh;
-    width: 40vh;
-    background-size: cover;
-    background-position: center center;
-    position: relative;
-    background-color: #f9f9f9;
+  border-radius: 5px;
+  height: 45vh;
+  width: 40vh;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+  background-color: #f9f9f9;
 }
 h3.PopularDes-ListImage-Title {
-    font-size: 24px;
-    font-weight: 700;
-    color: #fff;
-    font-family: 'Poppins', Helvetica, Arial, sans-serif;
-    font-style: inherit;
-    position: relative;
-    top: 85%;
-    padding-left: 5%;
+  font-size: 24px;
+  font-weight: 700;
+  color: #fff;
+  font-family: "Poppins", Helvetica, Arial, sans-serif;
+  font-style: inherit;
+  position: relative;
+  top: 85%;
+  padding-left: 5%;
 }
 div.PopularDes-ListImage-Image:hover {
-    box-shadow: 0 22px 40px rgba(0,0,0,.15);
-    transition-duration: 0.2s;
-    transform: translateY(-4px);
+  box-shadow: 0 22px 40px rgba(0, 0, 0, 0.15);
+  transition-duration: 0.2s;
+  transform: translateY(-4px);
+}
+/* --------------------------------------------- */
+/* CSS phần Best Value Trip tron Body Page */
+div.Best-Value-Trip {
+  position: relative;
+  width: 80%;
+  margin-left: 0;
+  margin-top: 0;
+  left: 10%;
+}
+div.Best-Value-Trip > div.Best-Value-Trip-Item {
+  padding-left: 0;
+  padding-top: 0;
+  max-width: 30%;
+  margin-left: 2%;
+}
+div.Best-Value-Trip > div.Best-Value-Trip-Item:hover {
+  box-shadow: 0 22px 40px rgba(0, 0, 0, 0.15);
+  transform: translateY(-4px);
+  transition-duration: 0.2s;
+}
+div.Best-Value-Trip > div.Best-Value-Trip-Item:hover > div.Best-Value-Trip-Price {
+    color: white;
+    background-color: #ff4a52;
+    width: fit-content;
+    height: 8%;
+    align-items: center;
+    display: flex;
+    font-size: 17px;
+    font-weight: 700;
+    justify-content: center;
+    position: absolute;
+    bottom: 25%;
+}
+div.Best-Value-Trip-Price {
+  color: white;
+  background-color: #ff4a52;
+  width: fit-content;
+  height: 8%;
+  align-items: center;
+  display: flex;
+  font-size: 15px;
+  font-weight: 700;
+  justify-content: center;
+  position: absolute;
+  bottom: 34%;
+}
+div.Best-Value-Trip-Price > div > span {
+  font-size: 13px;
+  font-weight: 400;
+  opacity: 0.6;
+  text-decoration: line-through;
+  margin-right: 5px;
+}
+div.Best-Value-Trip-Price-Sale {
+  position: absolute;
+  height: 10%;
+  width: 3%;
+  background: #1ec6b6;
+  color: #fff;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+  font-weight: 600;
+  right: 20%;
+  top: 3%;
 }

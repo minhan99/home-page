@@ -65,29 +65,36 @@ function BestValueTrip() {
         <Typography variant="h5">Best offers trips from us</Typography>
       </Box>
       <Box>
-        <Grid container spacing={2}>
+        <Grid className="Best-Value-Trip" container spacing={2}>
           {listValueTrip.map((itemIndex) => (
-            <Grid item={true} key={itemIndex.keyId} xs={3}>
-              {console.log("Grid :", itemIndex)}
-              <Box className="Img-Sub-Menu-Price">
-                {itemIndex.isSale === true && (
-                  <Box sx={{ padding: "0 10px 0 10px" }}>
-                    <Box component="span">{itemIndex.price}</Box>
-                    {itemIndex.salePrice}
+            <Grid className="Best-Value-Trip-Item" item={true} key={itemIndex.keyId} xs={4}>
+              {itemIndex.isSale === true && (
+                <Box>
+                  <Box className="Best-Value-Trip-Price">
+                    <Box sx={{ padding: "0 10px 0 10px" }}>
+                      <Box component="span">{itemIndex.price}</Box>
+                      {itemIndex.salePrice}
+                    </Box>
                   </Box>
-                )}
-                {itemIndex.isSale === false && (
-                  <Box sx={{ padding: "0 10px 0 10px" }}>
-                    <Box component="span"></Box>
-                    {itemIndex.salePrice}
+                  <Box className="Best-Value-Trip-Price-Sale">Sale</Box>
+                </Box>
+              )}
+              {itemIndex.isSale === false && (
+                <Box>
+                  <Box className="Best-Value-Trip-Price">
+                    <Box sx={{ padding: "0 10px 0 10px" }}>
+                      <Box component="span"></Box>
+                      {itemIndex.salePrice}
+                    </Box>
                   </Box>
-                )}
-              </Box>
-              <Card>
-                {console.log("card :", itemIndex)}
+                  <Box></Box>
+                </Box>
+              )}
+              <Card className="Best-Value-Trip-Card">
                 <CardMedia
                   component="img"
                   image={`${itemIndex.imageUrl}`}
+                  height="80%"
                 ></CardMedia>
                 <CardContent>
                   <Typography variant="h4">{itemIndex.title}</Typography>
