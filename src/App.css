@@ -226,13 +226,14 @@ div.Best-Value-Trip {
   width: 80%;
   margin-left: 0;
   margin-top: 0;
-  left: 10%;
+  left: 11%;
 }
 div.Best-Value-Trip > div.Best-Value-Trip-Item {
   padding-left: 0;
   padding-top: 0;
   max-width: 30%;
   margin-left: 2%;
+  position: relative;
 }
 div.Best-Value-Trip > div.Best-Value-Trip-Item:hover {
   box-shadow: 0 22px 40px rgba(0, 0, 0, 0.15);
@@ -263,7 +264,7 @@ div.Best-Value-Trip-Price {
   font-weight: 700;
   justify-content: center;
   position: absolute;
-  bottom: 34%;
+  bottom: 38%;
 }
 div.Best-Value-Trip-Price > div > span {
   font-size: 13px;
@@ -275,7 +276,7 @@ div.Best-Value-Trip-Price > div > span {
 div.Best-Value-Trip-Price-Sale {
   position: absolute;
   height: 10%;
-  width: 3%;
+  width: 10%;
   background: #1ec6b6;
   color: #fff;
   font-size: 12px;
@@ -284,6 +285,49 @@ div.Best-Value-Trip-Price-Sale {
   justify-content: center;
   border-radius: 100%;
   font-weight: 600;
-  right: 20%;
-  top: 3%;
+  right: -4.5%;
+  top: -4%;
+}
+h4.Best-Value-Trip-Title {
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 0px;
+}
+p.Best-Value-Trip-SubTitle {
+  padding-top: 0.5em;
+  font-size: 14px;
+}
+div.Best-Value-Trip-Rate {
+  padding: 0 13px 0 13px;
+}
+div.Best-Value-Trip-Rate:last-child {
+  padding-bottom: 5%;
+}
+div.Best-Value-Trip-RateItem {
+  display: flex;
+}
+div.Best-Value-Trip-Icon > svg {
+  font-size: 18px;
+  color: #1EC6B6;
+}
+div.Best-Value-Trip-Review > p {
+  font-size: 12px;
+  font-weight: 600;
+  display: inline-block;
+}
+div.Best-Value-Trip-TimeValue {
+  display: flex;
+  padding-left: 42%;
+}
+div.Best-Value-Trip-TimeValue > p {
+  font-size: 12px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+}
+div.Best-Value-Trip-TimeValue > svg {
+  font-size: 12px;
+  font-weight: 600;
+  position: relative;
+  bottom: -4px;
 }
