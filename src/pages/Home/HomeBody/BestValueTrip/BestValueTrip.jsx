@@ -5,6 +5,9 @@ import Card from "@mui/material/Card"
 import CardContent from "@mui/material/CardContent"
 import CardMedia from "@mui/material/CardMedia"
 import Grid from "@mui/material/Grid"
+import StarRateIcon from "@mui/icons-material/StarRate"
+import StarOutlineIcon from "@mui/icons-material/StarOutline"
+import QueryBuilderIcon from "@mui/icons-material/QueryBuilder"
 
 const listValueTrip = [
   {
@@ -16,6 +19,8 @@ const listValueTrip = [
     price: "$5,000",
     salePrice: "$5,000",
     isSale: false,
+    time : "5 days",
+    review : "4 reviews"
   },
   {
     keyId: "2",
@@ -26,6 +31,8 @@ const listValueTrip = [
     price: "$6,000",
     salePrice: "$6,000",
     isSale: false,
+    time: "6 days",
+    review : "4 reviews"
   },
   {
     keyId: "3",
@@ -36,6 +43,8 @@ const listValueTrip = [
     price: "$3,000",
     salePrice: "$2,500",
     isSale: true,
+    time: "5 days",
+    review : "4 reviews"
   },
 ]
 
@@ -67,7 +76,12 @@ function BestValueTrip() {
       <Box>
         <Grid className="Best-Value-Trip" container spacing={2}>
           {listValueTrip.map((itemIndex) => (
-            <Grid className="Best-Value-Trip-Item" item={true} key={itemIndex.keyId} xs={4}>
+            <Grid
+              className="Best-Value-Trip-Item"
+              item={true}
+              key={itemIndex.keyId}
+              xs={4}
+            >
               {itemIndex.isSale === true && (
                 <Box>
                   <Box className="Best-Value-Trip-Price">
@@ -97,8 +111,30 @@ function BestValueTrip() {
                   height="80%"
                 ></CardMedia>
                 <CardContent>
-                  <Typography variant="h4">{itemIndex.title}</Typography>
-                  <Typography>{itemIndex.subTitle}</Typography>
+                  <Typography className="Best-Value-Trip-Title" variant="h4">
+                    {itemIndex.title}
+                  </Typography>
+                  <Typography className="Best-Value-Trip-SubTitle">
+                    {itemIndex.subTitle}
+                  </Typography>
+                </CardContent>
+                <CardContent className="Best-Value-Trip-Rate">
+                  <Box className="Best-Value-Trip-RateItem">
+                    <Box className="Best-Value-Trip-Icon">
+                      <StarRateIcon></StarRateIcon>
+                      <StarRateIcon></StarRateIcon>
+                      <StarRateIcon></StarRateIcon>
+                      <StarRateIcon></StarRateIcon>
+                      <StarOutlineIcon></StarOutlineIcon>
+                    </Box>
+                    <Box className="Best-Value-Trip-Review">
+                      <Typography>{itemIndex.review}</Typography>
+                    </Box>
+                    <Box className="Best-Value-Trip-TimeValue">
+                      <QueryBuilderIcon></QueryBuilderIcon>
+                      <Typography>{itemIndex.time}</Typography>
+                    </Box>
+                  </Box>
                 </CardContent>
               </Card>
             </Grid>
