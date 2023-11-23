@@ -331,3 +331,53 @@ div.Best-Value-Trip-TimeValue > svg {
   position: relative;
   bottom: -4px;
 }
+/* CSS phần Why Choose Us trong body */
+div.Why-Choose-Us-Card {
+  border-radius: 0;
+  box-shadow: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+img.Why-Choose-Us-Img {
+  width: 30%;
+}
+div.Why-Choose-Us > div.Why-Choose-Us-Item {
+  padding-left: 0;
+  max-width: 30%;
+}
+h4.Why-Choose-Us-Title {
+  font-weight: bold;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  line-height: 1.4em;
+}
+p.Why-Choose-Us-SubTitle {
+  padding-top: 0.7em;
+  padding-bottom: 1.3em;
+  line-height: 1.7em;
+  font-weight: inherit;
+  font-size: 15px;
+  font-style: inherit;
+  font-family: inherit;
+  vertical-align: baseline;
+  width: 80%;
+  text-align: center;
+}
+div.Why-Choose-Us-Content {
+  display: grid;
+  justify-items: center;
+}
+div.Why-Choose-Us {
+  padding-left: 10%;
+}
+div.Why-Choose-Us-ImageBottom {
+  height: 60vh;
+  clear: both;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  margin-top: 3%;
+}
