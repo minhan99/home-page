@@ -1,8 +1,8 @@
 import { Box } from "@mui/material"
 import React from "react"
-import PopularDestination from "./PopularDestination/PopularDestination"
-import BestValueTrip from "./BestValueTrip/BestValueTrip"
-import WhyChooseUs from "./WhyChooseUs/WhyChooseUs"
+import PopularDestination from "./PopularDestinations/PopularDestination"
+import BestValueTrip from "./BestValueTrips/BestValueTrip"
+import WhyChooseUs from "./WhyChooseUss/WhyChooseUs"
 import ArticlesAndTip from "./ArticlesAndTips/ArticlesAndTip"
 
 function HomeBody() {

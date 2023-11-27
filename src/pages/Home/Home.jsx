@@ -1,6 +1,6 @@
 import { Box } from '@mui/material'
 import React from 'react'
-import BackGroundHeader from '../../components/BackGroundHeader/BackGroundHeader'
+import BackGroundHeader from '../../components/BackGroundHeaders/BackGroundHeader'
 import HomeBody from './HomeBody/HomeBody'
 import Footer from '../../components/Footer/Footer'
 

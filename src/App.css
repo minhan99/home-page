@@ -375,7 +375,7 @@ div.Why-Choose-Us {
   padding-left: 10%;
 }
 div.Why-Choose-Us-ImageBottom {
-  height: 60vh;
+  height: 40vh;
   clear: both;
   background-position: center center;
   background-size: cover;
@@ -451,7 +451,114 @@ div.Article-Tip-Icon > svg {
   text-transform: none;
   line-height: 1;
   -webkit-font-smoothing: antialiased;
-  opacity: .5;
+  opacity: 0.5;
   font-size: 12px;
   padding-left: 5px;
+}
+/* CSS phần Footer */
+div.Footer {
+  margin-top: 6%;
+  background-color: #000000;
+  color: #fff;
+}
+div.Footer-Body {
+  margin-top: 0;
+  margin-left: 0;
+  width: 100%;
+}
+div.Footer-Body > div {
+  max-width: 30%;
+}
+div.Footer-Title > h2 {
+  font-family: "Poppins", Helvetica, Arial, sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: 0px;
+  text-transform: none;
+}
+div.Footer-SubTitle > p {
+  font-weight: inherit;
+  font-style: inherit;
+  font-family: inherit;
+  vertical-align: baseline;
+  font-size: 16px;
+  color: #cccccc;
+  margin-top: 15px;
+  line-height: 1.7;
+}
+div.Footer-SubTitle > p > svg {
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  font-family: inherit;
+  vertical-align: baseline;
+  font-size: 16px;
+  color: #cccccc;
+  padding-right: 10px;
+}
+div.Footer-Contact-Info {
+  padding: 60px 20px 0px 40px;
+}
+div.Footer-Our-Awards {
+  padding: 60px 20px 0px 130px;
+}
+div.Footer-Our-RecentTrip {
+  padding: 60px 130px 0px 20px;
+}
+img.Footer-Our-Awards-Image {
+  height: 113px;
+  width: 246px;
+  margin-top: 30px;
+}
+div.Footer-Contact-Info-Social {
+  padding-top: 20px;
+}
+div.Footer-Contact-Info-Social > svg {
+  font-size: 40px;
+  margin-left: 10px;
+  border-radius: 100%;
+}
+ul.Footer-Our-RecentTrip-Image {
+  width: 430px;
+  height: 290px;
+}
+li.Footer-Our-RecentTrip-Image-Item {
+  height: 120px !important;
+  border-radius: 5%;
+}
+li.Footer-Our-RecentTrip-Image-Item > img {
+  border-radius: 5%;
+}
+div.Footer-Help {
+  display: flex;
+  padding: 30px 10px 30px 100px;
+  color: #cccccc;
+  font-size: 12px;
+  font-weight: 400;
+  text-align: left;
+  font-family: "Poppins", Helvetica, Arial, sans-serif
+}
+div.Footer-Menu {
+  display: flex;
+  width: 40%;
+  justify-content: right;
+}
+div.Footer-Menu > p {
+  margin-left: 20px;
+  font-size: 12px;
+  font-weight: 400;
+  text-align: left;
+  font-family: "Poppins", Helvetica, Arial, sans-serif
+}
+div.Footer-Create-By-Name {
+  width: 50%;
+}
+div.Footer-Create-By-Name > p {
+  font-size: 12px;
+  font-weight: 400;
+  text-align: left;
+  font-family: "Poppins", Helvetica, Arial, sans-serif
+}
+body {
+  margin: 0 !important;
 }
